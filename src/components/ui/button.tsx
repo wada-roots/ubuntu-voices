@@ -15,6 +15,9 @@ const buttonVariants = cva(
         secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        heritage: "bg-gradient-heritage text-primary-foreground hover:opacity-90 shadow-lg transition-all duration-300",
+        ubuntu: "bg-ubuntu text-ubuntu-foreground hover:bg-ubuntu/90 shadow-md",
+        elder: "bg-heritage-brown text-card hover:bg-heritage-brown/90 border border-ubuntu/20",
       },
       size: {
         default: "h-10 px-4 py-2",

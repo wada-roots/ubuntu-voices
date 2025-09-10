@@ -39,6 +39,16 @@ export default {
           DEFAULT: "hsl(var(--accent))",
           foreground: "hsl(var(--accent-foreground))",
         },
+        ubuntu: {
+          DEFAULT: "hsl(var(--ubuntu))",
+          foreground: "hsl(var(--ubuntu-foreground))",
+        },
+        heritage: {
+          brown: "hsl(var(--heritage-brown))",
+          green: "hsl(var(--heritage-green))",
+          red: "hsl(var(--heritage-red))",
+          black: "hsl(var(--heritage-black))",
+        },
         popover: {
           DEFAULT: "hsl(var(--popover))",
           foreground: "hsl(var(--popover-foreground))",
@@ -62,6 +72,11 @@ export default {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+      },
+      backgroundImage: {
+        'gradient-earth': 'var(--gradient-earth)',
+        'gradient-heritage': 'var(--gradient-heritage)',
+        'gradient-wisdom': 'var(--gradient-wisdom)',
       },
       keyframes: {
         "accordion-down": {
