@@ -17,12 +17,13 @@ const Header = () => {
 
           {/* Navigation */}
           <nav className="hidden md:flex items-center space-x-6">
-            <a href="#stories" className="text-foreground hover:text-primary transition-colors">Stories</a>
-            <a href="#elders" className="text-foreground hover:text-primary transition-colors">Elders</a>
-            <a href="#poetry" className="text-foreground hover:text-primary transition-colors">Poetry</a>
-            <a href="#healing" className="text-foreground hover:text-primary transition-colors">Healing</a>
-            <a href="#places" className="text-foreground hover:text-primary transition-colors">Places</a>
-            <a href="#heroes" className="text-foreground hover:text-primary transition-colors">Heroes</a>
+            <a href="/stories" className="text-foreground hover:text-primary transition-colors story-link">Stories</a>
+            <a href="/ubuntu-voices" className="text-foreground hover:text-primary transition-colors story-link">Elders</a>
+            <a href="/poetry" className="text-foreground hover:text-primary transition-colors story-link">Poetry</a>
+            <a href="/medicinal-plants" className="text-foreground hover:text-primary transition-colors story-link">Healing</a>
+            <a href="/heritage-map" className="text-foreground hover:text-primary transition-colors story-link">Places</a>
+            <a href="/heroes" className="text-foreground hover:text-primary transition-colors story-link">Heroes</a>
+            <a href="/learning-hub" className="text-foreground hover:text-primary transition-colors story-link">Learn</a>
           </nav>
 
           {/* Search and Menu */}
