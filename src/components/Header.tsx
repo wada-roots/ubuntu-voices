@@ -1,14 +1,19 @@
 import { Button } from "@/components/ui/button";
 import { Menu, Search } from "lucide-react";
+import drumLogo from "@/assets/logo-drum-concept.png";
 
 const Header = () => {
   return (
     <header className="border-b border-border bg-card/80 backdrop-blur-sm sticky top-0 z-50">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          {/* Logo with Kenyan Flag */}
+          {/* Logo */}
           <div className="flex items-center space-x-3">
-            <div className="w-12 h-8 bg-gradient-to-b from-heritage-black via-heritage-red to-heritage-green rounded-sm shadow-md"></div>
+            <img 
+              src={drumLogo} 
+              alt="Ubuntu Voices Logo" 
+              className="w-12 h-12 object-contain"
+            />
             <div>
               <h1 className="text-xl font-bold text-foreground">Ubuntu Voices</h1>
               <p className="text-xs text-muted-foreground">Preserving Kenya's Heritage</p>
