@@ -15,7 +15,7 @@ const Header = () => {
               className="w-12 h-12 object-contain"
             />
             <div>
-              <h1 className="text-xl font-bold text-foreground">Ubuntu Voices</h1>
+              <h1 className="text-xl font-bold text-foreground">Sauti za Kale Africa</h1>
               <p className="text-xs text-muted-foreground">Preserving Kenya's Heritage</p>
             </div>
           </div>
