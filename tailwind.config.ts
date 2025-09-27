@@ -39,9 +39,9 @@ export default {
           DEFAULT: "hsl(var(--accent))",
           foreground: "hsl(var(--accent-foreground))",
         },
-        ubuntu: {
-          DEFAULT: "hsl(var(--ubuntu))",
-          foreground: "hsl(var(--ubuntu-foreground))",
+        sauti: {
+          DEFAULT: "hsl(var(--sauti))",
+          foreground: "hsl(var(--sauti-foreground))",
         },
         heritage: {
           brown: "hsl(var(--heritage-brown))",

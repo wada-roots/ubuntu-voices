@@ -11,7 +11,7 @@ const Header = () => {
           <div className="flex items-center space-x-3">
             <img 
               src={drumLogo} 
-              alt="Ubuntu Voices Logo" 
+              alt="Sauti za Kale Africa Logo" 
               className="w-12 h-12 object-contain"
             />
             <div>
